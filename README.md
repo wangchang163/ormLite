@@ -1,7 +1,7 @@
 OrmLite数据库的使用，包括增删改查，以及数据库版本升级
 
 来一发效果图，模拟器没弹出来输入框，所以大家还是在手机测试吧，根据下面列表输入用户id
-![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.png) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.gif) 
 
 
 使用：
@@ -153,7 +153,7 @@ OrmLite数据库的使用，包括增删改查，以及数据库版本升级
 
 
 最后来一发效果图，模拟器没弹出来输入框，所以大家还是在手机测试吧，根据下面列表输入用户id
-![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.png) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.gif) 
 
 
 
