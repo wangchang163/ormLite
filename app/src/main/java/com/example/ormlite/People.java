@@ -20,8 +20,8 @@ public class People implements Serializable {
     public String sex;  //用户性别
     @DatabaseField(columnName = "age")
     public String age;  //用户年龄
-    @DatabaseField(columnName = "desc")
-    public String desc;
+//    @DatabaseField(columnName = "desc")
+//    public String desc;
 
     public People(String name, String sex, String age) {
         this.name = name;
@@ -29,24 +29,24 @@ public class People implements Serializable {
         this.age = age;
     }
 
-    public People(String name, String sex, String age, String desc) {
-        this.name = name;
-        this.sex = sex;
-        this.age = age;
-        this.desc = desc;
-    }
+//    public People(String name, String sex, String age, String desc) {
+//        this.name = name;
+//        this.sex = sex;
+//        this.age = age;
+//        this.desc = desc;
+//    }
 
 
     public People() {
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+//    public String getDesc() {
+//        return desc;
+//    }
+//
+//    public void setDesc(String desc) {
+//        this.desc = desc;
+//    }
 
     public int getId() {
         return id;

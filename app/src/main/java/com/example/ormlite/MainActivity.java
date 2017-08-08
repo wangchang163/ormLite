@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.tv_add:
                 index++;
-                People people = new People("张三" + index, "男", index + "岁","aa");
+                People people = new People("张三" + index, "男", index + "岁");
                 peopleDao.add(people);
                 getData();
                 break;

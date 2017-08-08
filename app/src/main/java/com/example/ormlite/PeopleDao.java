@@ -16,7 +16,7 @@ import java.util.concurrent.Callable;
 public class PeopleDao {
 
     private Context context;
-    private Dao<People, Integer> peopleStringDao;//String根据学生id类型判断
+    private Dao<People, Integer> peopleStringDao;//Integer根据学生id类型判断
 
     public PeopleDao(Context context) {
         this.context = context;

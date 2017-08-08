@@ -21,7 +21,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
     private static final String TAG = "DatabaseHelper";
     private static final String DATABASE_NAME = "people.db";
-    private static final int DATABASE_VERSION = 5;
+    private static final int DATABASE_VERSION = 6;
     private static DatabaseHelper instance;
 
     /**
@@ -44,7 +44,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase database, ConnectionSource connectionSource) {
         try {
-            TableUtils.createTable(connectionSource, People.class);
+            TableUtils.createTableIfNotExists(connectionSource, People.class);
         } catch (java.sql.SQLException e) {
             e.printStackTrace();
         }
@@ -60,12 +60,12 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
      */
     @Override
     public void onUpgrade(SQLiteDatabase database, ConnectionSource connectionSource, int oldVersion, int newVersion) {
-        try {
-            TableUtils.dropTable(connectionSource,People.class,true);
-            onCreate(database,connectionSource);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            TableUtils.dropTable(connectionSource,People.class,true);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+        onCreate(database,connectionSource);
 
     }
 
