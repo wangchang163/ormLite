@@ -140,7 +140,10 @@ OrmLite数据库的使用，包括增删改查，以及数据库版本升级
              
              当然增删改查也不仅仅包含这么几个方法
              
-![image](https://github.com/wangchang163/HistogramView/blob/master/images/ee.gif) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/aa.png) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/bb.png) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/cc.png) 
+![image](https://github.com/wangchang163/ormLite/blob/master/images/dd.png) 
   
      
          
