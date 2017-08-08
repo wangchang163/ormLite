@@ -1,5 +1,9 @@
 OrmLite数据库的使用，包括增删改查，以及数据库版本升级
 
+来一发效果图，模拟器没弹出来输入框，所以大家还是在手机测试吧，根据下面列表输入用户id
+![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.png) 
+
+
 使用：
 
 添加依赖
@@ -144,6 +148,15 @@ OrmLite数据库的使用，包括增删改查，以及数据库版本升级
 ![image](https://github.com/wangchang163/ormLite/blob/master/images/bb.png) 
 ![image](https://github.com/wangchang163/ormLite/blob/master/images/cc.png) 
 ![image](https://github.com/wangchang163/ormLite/blob/master/images/dd.png) 
+
+这样更直观一点，不做解释了。
+
+
+最后来一发效果图，模拟器没弹出来输入框，所以大家还是在手机测试吧，根据下面列表输入用户id
+![image](https://github.com/wangchang163/ormLite/blob/master/images/ormlite.png) 
+
+
+
   
      
          
